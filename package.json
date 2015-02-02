@@ -2,7 +2,7 @@
   "name": "rgba-regex",
   "description": "Regex for matching RGBA color strings.",
   "author": "John Otander",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,7 +15,14 @@
     "url": "https://github.com/johnotander/rgba-regex.git"
   },
   "keywords": [
-
+    "css",
+    "regex",
+    "regexp",
+    "regexps",
+    "rgba",
+    "color"
+    "regular",
+    "expression"
   ],
   "license": "MIT",
   "bugs": {
