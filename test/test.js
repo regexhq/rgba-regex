@@ -2,6 +2,7 @@ var assert = require('assert');
 var rgbaRegex = require('..');
 
 var rgbaStrings = [
+  'rgba(50%, 50%, 50%, 1)',
   'rgba(12,34,56, 1)',
   'rgba(255, 255,      255, .9)',
   'rgba(1,   1,1, 0.2)'
@@ -9,6 +10,7 @@ var rgbaStrings = [
 
 var inexactRgbaStrings = [
   'rgba(,,,)',
+  'rgba(%, %, %, 1)',
   'rGba(12,34,56,1)',
   'rgba(12, 34, 200,1) ',
   '   rgba(12,34,56,1)',
