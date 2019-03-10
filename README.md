@@ -1,6 +1,6 @@
 # rgba-regex
 
-[![Build Status](https://secure.travis-ci.org/regexps/rgba-regex.png?branch=master)](https://travis-ci.org/regexps/rgba-regex)
+[![Build Status](https://secure.travis-ci.org/regexhq/rgba-regex.png?branch=master)](https://travis-ci.org/regexhq/rgba-regex)
 
 Regex for matching RGBA color strings.
 
