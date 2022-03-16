@@ -24,6 +24,7 @@
     "regular",
     "expression"
   ],
+  "types": "index.d.ts",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/regexhq/rgba-regex/issues"
