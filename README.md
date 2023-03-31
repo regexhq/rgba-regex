@@ -15,7 +15,12 @@ npm install --save rgba-regex
 ```javascript
 var rgbaRegex = require('rgba-regex');
 
-rgbaRegex({ exact: true }).test('rgba(12, 34, 56, .8)');  // => true
+rgbaRegex({ exact: true }).test('rgba(12, 34, 56, .8)');  // -> true
+rgbaRegex({ exact: true }).test('rgba(12, 34, 56, 1.8)');  // -> false
+rgbaRegex({ exact: true }).test('rgba(255, 255, 255, 0.0)');  // -> true
+rgbaRegex({ exact: true }).test('rgba(255, 255, 255, 1.1)');  // -> false
+rgbaRegex({ exact: true }).test('rgba(0%, 0%, 0%, 1)');  // -> true
+rgbaRegex({ exact: true }).test('rgba(255%, 0%, 0%, 1)');  // -> false
 rgbaRegex({ exact: true }).test('unicorns');         // -> false
 rgbaRegex({ exact: true }).test('rgba(,,,)');          // => false
 
